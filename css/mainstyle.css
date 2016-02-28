@@ -1,3 +1,6 @@
+body {
+      position: relative; 
+  }
 /*HEADER*/
 header{
     background-image: url("navbarimage.jpg");
@@ -5,7 +8,7 @@ header{
     background-repeat: no-repeat;
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
-    height: 700px;
+    height: 800px;
     background-attachment:fixed;
 }
 header h2 {
@@ -16,10 +19,65 @@ header h2 {
     font-family: Georgia, serif;
 }
 header h1 {
-    margin-top: 350px;
+    margin-top: 300px;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
+    font-family: Georgia, serif;
+}
+@media only screen and (max-width: 600px){
+    header{
+        height: 700px;
+    }
+    header h2{
+        margin-top: 100px;
+        margin-right: 0px;
+        font-size: 20px;
+    }
+    header h1{
+        margin-top: 200px;
+        font-size: 40px;
+    }
+}
+/*GENERAL*/
+#general img{
+    position:relative;
+    width: 350px;
+    float: left;
+    margin:30px 15px 15px 30px;
+    margin-right: 4%;
+}
+#general #tablegeneral{
+    position: relative;
+    float: left;
+    margin: 30px 15px 15px 15px;
+    font-size: 18px;
+}
+#general #tablepersonal{
+    position: relative;
+    float:left;
+    margin: 30px 15px 15px 15px;
+    font-size: 18px;
+}
+#general #tablegeneral td,  #general #tablepersonal td{
+    padding: 6px;   
+    font-family: Georgia, serif;;
+}
+#general #tableeducation{
+    float: left;
+    margin: 15px 0px 15px 30px;
+    font-size:15px;
+}
+#general #tableeducation th, #general #tableeducation td{
+    padding: 10px;
+    font-family:Georgia, serif;
+    background-color: #F8F8FF;
+}
+#general #tableeducation th{
+    background-color: #DCDCDC;
+}
+#general caption{
+    font-size: 18px;
     font-family: Georgia, serif;
 }
 

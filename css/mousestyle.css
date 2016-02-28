@@ -4,7 +4,12 @@
   margin: auto;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  top: 450px;
+  top: 400px;
+}
+@media only screen and (max-width: 600px){
+  .center{
+    top: 200px;
+  }
 }
 .mouse
 {
