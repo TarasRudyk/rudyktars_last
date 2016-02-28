@@ -1,0 +1,32 @@
+/*HEADER*/
+header{
+    background-image: url("navbarimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    height: 700px;
+    background-attachment:fixed;
+}
+header h2 {
+    text-align: right;
+    margin-top: 150px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: Georgia, serif;
+}
+header h1 {
+    margin-top: 350px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Georgia, serif;
+}
+
+
+
+
+
+
+
+
