@@ -1,0 +1,20 @@
+/*BOOTSTRAP STYLES*/
+body {
+      position: relative; 
+  }
+  .affix {
+      top: 0;
+      width: 100%;
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+  }
+  .affix-top {
+      position: relative;
+      top: -35px;
+  }
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
