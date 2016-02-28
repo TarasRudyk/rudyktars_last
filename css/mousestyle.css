@@ -1,5 +1,4 @@
-.center
-{
+.center{
   position: absolute;
   margin: auto;
   left: 50%;
@@ -11,8 +10,7 @@
     top: 200px;
   }
 }
-.mouse
-{
+.mouse{
   height: 42px;
   width: 28px;
   border-radius: 20px;
@@ -21,8 +19,7 @@
   text-align:center;
 }
 
-.wheel
-{
+.wheel{
   height: 10px;
   width: 2px;
   display: block;
@@ -31,14 +28,12 @@
   position: relative;
 }
 
-.wheel
-{
+.wheel{
   -webkit-animation: mouse-wheel 1.2s ease infinite;
   -moz-animation: mouse-wheel 1.2s ease infinite;
 }
 
-@-webkit-keyframes mouse-wheel
-{
+@-webkit-keyframes mouse-wheel{
    0% {
     opacity: 1;
     -webkit-transform: translateY(0);
@@ -54,8 +49,7 @@
   }
 }
 
-@-moz-keyframes mouse-wheel
-{
+@-moz-keyframes mouse-wheel{
   0% { top: 1px; }
   50% { top: 2px; }
   100% { top: 3px;}
