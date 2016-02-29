@@ -9,21 +9,21 @@ header{
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     height: 800px;
-    background-attachment:fixed;
+    background-attachment: fixed;
 }
 header h2 {
     text-align: right;
     margin-top: 150px;
     margin-right: 10px;
     font-size: 25px;
-    font-family: Georgia, serif;
+    font-family: Georgia serif;
 }
 header h1 {
     margin-top: 300px;
     text-align: center;
     font-size: 60px;
     font-weight: bold;
-    font-family: Georgia, serif;
+    font-family: Georgia serif;
 }
 @media only screen and (max-width: 600px){
     header{
@@ -42,44 +42,40 @@ header h1 {
 /*GENERAL*/
 #general img{
     position:relative;
-    width: 350px;
+    width: 370px;
     float: left;
-    margin:30px 15px 15px 30px;
-    margin-right: 4%;
+    margin: 4% 2% 2% 2%;
 }
-#general #tablegeneral{
+#tablegeneral, #tablepersonal{
     position: relative;
     float: left;
-    margin: 30px 15px 15px 15px;
-    font-size: 18px;
+    margin: 4% 2% 2% 2%;
+    font-size: 130%;
 }
-#general #tablepersonal{
+#tablegeneral td, #tablepersonal td{
+    padding: 1.5%;   
+    font-family: Georgia serif;
+}
+#tableeducation {
     position: relative;
-    float:left;
-    margin: 30px 15px 15px 15px;
-    font-size: 18px;
+    float: none;
+    margin: 0;
+    font-size: 120%;
 }
-#general #tablegeneral td,  #general #tablepersonal td{
-    padding: 6px;   
-    font-family: Georgia, serif;;
+#tableeducation td, #tableeducation th{
+     padding: 0.6%;
+     font-family: Georgia serif;
 }
-#general #tableeducation{
-    float: left;
-    margin: 15px 0px 15px 30px;
-    font-size:15px;
-}
-#general #tableeducation th, #general #tableeducation td{
-    padding: 10px;
-    font-family:Georgia, serif;
-    background-color: #F8F8FF;
-}
-#general #tableeducation th{
+#tableeducation th{
     background-color: #DCDCDC;
+    text-align: center;
 }
-#general caption{
-    font-size: 18px;
-    font-family: Georgia, serif;
+#tableeducation td{
+    background-color: #F8F8FF;
+    text-align: center;
+    border-bottom: 1px solid #DCDCDC
 }
+
 
 
 
