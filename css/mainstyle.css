@@ -176,3 +176,47 @@ header h1 {
         font-size: 95%;
         }
 }
+/*CONTACT*/
+#contact h4 {
+    font-size: 350%;
+    margin: 4% 2% 2% 2%;
+    font-family: Georgia, serif, bold;
+}
+#contact p{
+    font-size: 22px;
+    margin: 2%;
+    float: left;
+}
+.wrapper{
+    position: relative;
+    float: left;
+}
+.input-group{
+    margin: 4%;
+}
+#contact textarea{
+     border-radius: 5px;
+}
+/*FOOTER*/
+#footer{
+    background: -webkit-linear-gradient(left, #000000, white);
+    padding-top: 20px;
+    margin-top: 20px;
+    color: white;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+    text-decoration: none;
+}
