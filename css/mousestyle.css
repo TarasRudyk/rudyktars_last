@@ -3,11 +3,11 @@
   margin: auto;
   left: 50%;
   -webkit-transform: translateX(-50%);
-  top: 400px;
+  top: 14%;
 }
 @media only screen and (max-width: 600px){
   .center{
-    top: 200px;
+    top: 8%;
   }
 }
 .mouse{
