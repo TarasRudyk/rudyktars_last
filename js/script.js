@@ -13,4 +13,11 @@ $(function() {
   });
 });
 
-$('greeting').addClass('animated bounceOutLeft');
+
+$(window).bind("scroll", function() {
+    if ($(this).scrollTop() >1100) {
+        $("p").fadeIn('slow');
+    } else {
+        $("p").stop().fadeOut();
+    }
+});
