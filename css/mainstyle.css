@@ -45,6 +45,16 @@ header h1 {
         font-size: 250%;
     }
 }
+#social ul{
+    list-style-type: none;
+    position: fixed;
+    bottom: 0%;
+    z-index: 9999;
+    right: 0%;
+}
+#social li{
+    display: inline;
+}
 /*GENERAL*/
 #general img{
     position:relative;

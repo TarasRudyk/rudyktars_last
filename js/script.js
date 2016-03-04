@@ -15,9 +15,29 @@ $(function() {
 
 
 $(window).bind("scroll", function() {
+    if ($(this).scrollTop() > 350) {
+        $("#tablegeneral").fadeIn('slow');
+        $("#tablepersonal").fadeIn('slow');
+    } else {
+        $("#tablegeneral").stop().fadeOut('slow');
+        $("#tablepersonal").stop().fadeOut('slow');
+    }
+});
+
+
+$(window).bind("scroll", function() {
     if ($(this).scrollTop() >1100) {
         $("p").fadeIn('slow');
+        $("#trainingdrilling").fadeIn('slow');
     } else {
         $("p").stop().fadeOut();
+        $("#trainingdrilling").stop().fadeOut();
+    }
+});
+$(window).bind("scroll", function() {
+    if ($(this).scrollTop() >20) {
+        $("#social").animate({left: '0%'});
+    } else {
+        $("#social").stop().animate({right: '0%'});
     }
 });
