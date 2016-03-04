@@ -12,3 +12,5 @@ $(function() {
     }
   });
 });
+
+$('greeting').addClass('animated bounceOutLeft');
